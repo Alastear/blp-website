@@ -15,7 +15,7 @@ const FirstContent = () => {
                             loading="lazy"
                             sizes="200vw"
                             style={{ width: 'auto', height: 'auto' }}
-                            className='border-[20px] border-red-100'
+                            className='border-[7px] md:border-[20px] border-red-100'
                         />
                     </div>
                 </div>
