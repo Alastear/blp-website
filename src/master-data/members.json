@@ -46,5 +46,21 @@
         "twitter": "https://x.com/Delta_Alizella",
         "twitch": "#",
         "colors": "bg-gradient-to-r from-indigo-700 to-pink-500"
+    },
+    "Benjy":{
+        "id": 7,
+        "name": "Benjy",
+        "youtube": "https://www.youtube.com/@Ratty_Benjy",
+        "twitter": "https://x.com/ratty_benjy",
+        "twitch": "#",
+        "colors": "bg-gradient-to-r from-red-700 to-black"
+    },
+    "Gan":{
+        "id": 8,
+        "name": "DGana",
+        "youtube": "https://www.youtube.com/@DELTA_ALIZELLA",
+        "twitter": "https://x.com/Delta_Alizella",
+        "twitch": "#",
+        "colors": "bg-gradient-to-r from-purple-600 to-purple-200"
     }
 }

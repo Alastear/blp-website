@@ -5,8 +5,8 @@ import Image from 'next/image';
 const Product = () => {
     const [imageIndex, setImageIndex] = useState(0);
     const imageList = [
-        { image: "/images/product-01.jpeg", link: "" },
-        { image: "/images/Graphic_VP.png", link: "https://t.co/UmXflFCrcS" },
+        { image: "/images/products/product_halloween_25.jpeg", link: "https://x.com/blindinglightsv/status/1984213774908473458" },
+        // { image: "/images/Graphic_VP.png", link: "https://t.co/UmXflFCrcS" },
     ];
 
     // useEffect(() => {

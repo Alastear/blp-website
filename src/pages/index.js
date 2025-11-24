@@ -39,13 +39,13 @@ export default function Home() {
             </div>
           </div>
           <div className="absolute top-0 items-center justify-center content-center justify-items-center h-full w-full ">
-            <div className="flex md:text-[50px] sm:text-[36px] text-[32px] text-white font-serif text-center mx-2">
+            <div className="flex md:text-[50px] sm:text-[36px] text-[32px] text-white font-inknut text-center mx-2">
               BLINDING LIGHTS PROJECT
             </div>
-            <div className="flex font-kanit md:text-[28px] sm:text-[24px] text-[20px] text-white text-center mx-2">
+            <div className="flex font-ibm md:text-[28px] sm:text-[24px] text-[20px] text-white text-center mx-2">
               ด้วยอำนาจของโชคชะตาทำให้พวกเรามาพบกัน
             </div>
-            <div className="flex font-kanit md:text-[28px] sm:text-[24px] text-[20px] text-white text-center mx-2">
+            <div className="flex font-ibm md:text-[28px] sm:text-[24px] text-[20px] text-white text-center mx-2">
               บังเกิดเป็นการเดินทางสุดปั่นป่วน
             </div>
             <div className="flex items-center content-center lg:w-48 sm:w-40 w-32 lg:mt-8 mt-4">

@@ -4,6 +4,7 @@ import FirstContent from "@/components/FirstContent";
 import { useEffect, useRef, useState } from "react";
 import About from "@/components/About";
 import Member from "@/components/Member";
+import Member_Munwan from "@/components/Member_Munwan";
 import Member_1 from "@/components/Member_1";
 import Join from "@/components/Join";
 import Product from "@/components/Product";
@@ -46,6 +47,7 @@ export default function Home() {
                         <About />
                         <Lore />
                         <Member />
+                        <Member_Munwan />
                         <Member_1 />
                         <Join />
                         <Product />

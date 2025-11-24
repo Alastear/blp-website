@@ -22,17 +22,17 @@ const About = () => {
                             height={250}
                         />
                     </div>
-                    <div className="flex md:text-[50px] sm:text-[32px] text-[24px] text-white font-serif text-center justify-center mx-2">
+                    <div className="flex md:text-[50px] sm:text-[32px] text-[24px] text-white font-inknut text-center justify-center mx-2">
                         BLINDING LIGHTS PROJECT
                     </div>
-                    <div className="flex font-kanit md:text-[26px] sm:text-[22px] text-[18px] text-white text-center justify-center mx-2">
+                    <div className="flex font-ibm md:text-[26px] sm:text-[22px] text-[18px] text-white text-center justify-center mx-2">
                         กลุ่ม Vtuber ที่รวมตัวกันภายใต้ชื่อ Blinding Lights Project
                     </div>
-                    <div className="flex font-kanit md:text-[26px] sm:text-[22px] text-[18px] text-white text-center justify-center mx-2">
+                    <div className="flex font-ibm md:text-[26px] sm:text-[22px] text-[18px] text-white text-center justify-center mx-2">
                         เหมือนกับชื่อ ดั่งแสงที่สว่างจ้า
                     </div>
                     <div className='flex justify-center mt-8'>
-                        <div className='cursor-pointer text-[32px] font-serif text-center content-center w-[200px] h-[60px] bg-gradient-to-br from-white via-slate-100 to-slate-200 rounded-about'>
+                        <div className='cursor-pointer text-[32px] font-inknut text-center content-center w-[200px] h-[60px] bg-gradient-to-br from-white via-slate-100 to-slate-200 rounded-about'>
                             MORE
                         </div>
                     </div>

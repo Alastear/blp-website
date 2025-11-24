@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        kanit: ["kanit"],
+        kanit: ["Kanit", "sans-serif"],
+        inknutAntiqua: ["Inknut Antiqua", "serif"],
+        ibm: ["IBM Plex Sans Thai", "sans-serif"],
       },
       animation: {
         'spin-slow': 'spin 2s linear infinite', // 2 seconds per rotation

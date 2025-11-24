@@ -28,45 +28,46 @@ const Member = () => {
             ${"mt-10 flex justify-center transition transition-opacity ease-in duration-700 delay-300"} 
             ${memberVisible ? "opacity-100" : "opacity-0"}
             `}>
-                <div className="md:mt-14 mt-10 py-5 md:px-16 sm:px-8 px-2 md:mx-0 mx-6 text-center flex-col lg:h-[150px] md:h-[140px] sm:h-[125px] h-[100px] lg:w-[1000px] md:w-[800px] w-auto ">
-                    <p className="lg:text-[36px] md:text-[32px] text-[28px] font-bold subpixel-antialiased text-white">
-                        MEMBERS
+                <div className="md:mt-14 mt-10 py-5 md:px-16 sm:px-8 px-2 md:mx-0 mx-6 text-center flex-col lg:h-[150px] md:h-[140px] sm:h-[125px] h-[100px] w-full ">
+                    <p className="text-left lg:text-[36px] md:text-[32px] text-[28px] font-bold subpixel-antialiased text-white font-inknut">
+                        <u>
+                            MEMBERS
+                        </u>
                     </p>
-                    <p className="text-slate-400 lg:px-32 md:px-24 sm:px-14 px-0 antialiased">
+                    {/* <p className="text-slate-400 lg:px-32 md:px-24 sm:px-14 px-0 antialiased">
                         Blinding Lights Project
-                    </p>
+                    </p> */}
                 </div>
             </div>
             <div ref={firstRef} className={`
             ${"flex justify-center transition transition-opacity ease-in duration-700 delay-500"} 
             ${firstVisible ? "opacity-100" : "opacity-0"}
             `}>
-                <div className="py-5 md:px-16 sm:px-8 px-2 md:mx-0 mx-6 text-center flex-col lg:h-[150px] md:h-[140px] sm:h-[125px] h-[100px] lg:w-[1000px] md:w-[800px] w-auto ">
-                    <p className="lg:text-[32px] md:text-[28px] text-[24px] font-bold subpixel-antialiased text-white">
-                        Voyager
-                    </p>
-                    <p className="text-slate-400 lg:px-32 md:px-24 sm:px-14 px-0 antialiased">
-                        0
-                        <a className='absolute -translate-y-1 text-[12px]'>th</a>
-                        <a className='ml-4'>
-                            Generation
-                        </a>
+                <div className="py-5 md:px-16 sm:px-8 px-2 md:mx-0 mx-6 text-center lg:h-[150px] md:h-[140px] sm:h-[125px] h-[100px] lg:w-[1000px] md:w-[800px] w-auto ">
+                    <p className="font-inknut lg:text-[80px] md:text-[64px] text-[50px] font-bold subpixel-antialiased text-white w-auto">
+                        <span className='block md:inline-block content-end'>
+                            VOYAGER
+                        </span>
+                        <span className="lg:ml-10 md:ml-6 ml-2 lg:text-[36px] md:text-[28px] text-[20px] text-white px-0 antialiased content-end">
+                            GEN 0
+                            <span className='absolute translate-y-10 lg:text-[20px] md:text-[15px] text-[10px]'>th</span>
+                        </span>
                     </p>
                 </div>
             </div>
             <div className="flex lg:flex-row flex-col justify-center items-center">
                 <div ref={step1Ref} className={`
-                ${"h-[500px] w-[350px] bg-blue-900 mx-4 rounded-about overflow-hidden lg:my-0 my-4 transition ease-in duration-300"}
+                ${"h-[600px] w-[350px] bg-[#3344CC] mx-4 rounded-about overflow-hidden lg:my-0 my-4 transition ease-in duration-300"}
                 ${step1Visible ? "scale-100" : "scale-0"}
                 `}>
-                    <div className="transition duration-300 ease-in translate-y-0 hover:-translate-y-[490px]">
+                    <div className="transition duration-300 ease-in translate-y-0 hover:-translate-y-[590px]">
                         <div className={`
-                    ${"w-full h-[490px] relative "}
+                    ${"w-full h-[590px] relative "}
                     `}>
-                            <div className="flex image-wrapper-aqua h-4/6 w-full text-white overflow-hidden p-4">
+                            <div className="flex image-wrapper-aqua h-4/6 w-full text-white overflow-hidden">
                                 <div className='flex justify-center'>
                                     <Image
-                                        src="/images/aquamarinia/aquamarinia_01.png"
+                                        src="/images/aquamarinia/main.png"
                                         className={`object-contain`}
                                         alt="Picture of the author"
                                         width={500}
@@ -84,7 +85,7 @@ const Member = () => {
                             </div>
                         </div>
                         <div className={`
-                    ${"w-full h-[500px] relative text-white content-center bg-gradient-to-r from-blue-700 to-sky-400"}
+                    ${"w-full h-[600px] relative text-white content-center bg-gradient-to-r from-blue-700 to-sky-400"}
                     `}>
                             <p className="ml-10 text-4xl text-white subpixel-antialiased cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5 hover:text-blue-900">
                                 <a href="/members/AquaMarinia">
@@ -112,21 +113,21 @@ const Member = () => {
                     </div>
                 </div>
                 <div ref={step2Ref} className={`
-                ${"h-[500px] w-[350px] bg-green-900 mx-4 rounded-about overflow-hidden lg:my-0 my-4 transition ease-in duration-300 lg:delay-150"}
+                ${"h-[600px] w-[350px] bg-[#259A30] mx-4 rounded-about overflow-hidden lg:my-0 my-4 transition ease-in duration-300"}
                 ${step2Visible ? "scale-100" : "scale-0"}
                 `}>
-                    <div className="transition duration-300 ease-in translate-y-0 hover:-translate-y-[490px]">
+                    <div className="transition duration-300 ease-in translate-y-0 hover:-translate-y-[590px]">
                         <div className={`
-                    ${"w-full h-[490px] relative "}
+                    ${"w-full h-[590px] relative "}
                     `}>
-                            <div className="flex image-wrapper-milyni h-4/6 w-full text-white overflow-hidden p-4">
+                            <div className="flex image-wrapper-milyni h-4/6 w-full text-white overflow-hidden ">
                                 <div className='flex justify-center'>
                                     <Image
-                                        src="/images/milyni/milyni_01.png"
-                                        className={``}
+                                        src="/images/milyni/main.png"
+                                        className={`object-contain`}
                                         alt="Picture of the author"
-                                        width={250}
-                                        height={250}
+                                        width={500}
+                                        height={500}
                                     />
                                 </div>
                             </div>
@@ -140,7 +141,7 @@ const Member = () => {
                             </div>
                         </div>
                         <div className={`
-                    ${"w-full h-[500px] relative text-white content-center bg-gradient-to-r from-lime-700 to-green-400 "}
+                    ${"w-full h-[600px] relative text-white content-center bg-gradient-to-r from-lime-700 to-green-400 "}
                     `}>
                             <p className="ml-10 text-4xl text-white subpixel-antialiased cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5 hover:text-green-900">
                                 <a href="/members/Milyni_Tivona">
@@ -168,15 +169,23 @@ const Member = () => {
                     </div>
                 </div>
                 <div ref={step3Ref} className={`
-                ${"h-[500px] w-[350px] bg-gray-900 mx-4 rounded-about overflow-hidden lg:my-0 my-4 transition ease-in duration-300 lg:delay-300"}
+                ${"h-[600px] w-[350px] bg-[#6D419F] mx-4 rounded-about overflow-hidden lg:my-0 my-4 transition ease-in duration-300"}
                 ${step3Visible ? "scale-100" : "scale-0"}
                 `} >
-                    <div className="transition duration-300 ease-in translate-y-0 hover:-translate-y-[490px]">
+                    <div className="transition duration-300 ease-in translate-y-0 hover:-translate-y-[590px]">
                         <div className={`
-                    ${"w-full h-[490px] relative "} 
+                    ${"w-full h-[590px] relative "} 
                     `}>
-                            <div className="flex-1 h-4/6 content-center text-center justify-center items-center text-white">
-                                IMAGE
+                            <div className="flex image-wrapper-lafka h-4/6 w-full text-white overflow-hidden ">
+                                <div className='flex justify-center'>
+                                    <Image
+                                        src="/images/lafka/main.png"
+                                        className={`object-contain`}
+                                        alt="Picture of the author"
+                                        width={500}
+                                        height={500}
+                                    />
+                                </div>
                             </div>
                             <div className="flex-1 h-2/6">
                                 <p className="ml-10 text-4xl text-white subpixel-antialiased">
@@ -188,7 +197,7 @@ const Member = () => {
                             </div>
                         </div>
                         <div className={`
-                    ${"w-full h-[500px] relative text-white content-center bg-gradient-to-r from-violet-700 to-purple-400"}
+                    ${"w-full h-[600px] relative text-white content-center bg-gradient-to-r from-violet-700 to-purple-400"}
                     `}>
                             <p className="ml-10 text-4xl text-white subpixel-antialiased cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5 hover:text-purple-900">
                                 <a href="/members/Lafka_Balea">
@@ -216,15 +225,21 @@ const Member = () => {
                     </div>
                 </div>
                 <div ref={step4Ref} className={`
-                ${"h-[500px] w-[350px] bg-gray-900 mx-4 rounded-about overflow-hidden lg:my-0 my-4 transition ease-in duration-300 lg:delay-300"}
+                ${"h-[600px] w-[350px] bg-[#92C5AA] mx-4 rounded-about overflow-hidden lg:my-0 my-4 transition ease-in duration-300"}
                 ${step4Visible ? "scale-100" : "scale-0"}
                 `} >
-                    <div className="transition duration-300 ease-in translate-y-0 hover:-translate-y-[490px]">
+                    <div className="transition duration-300 ease-in translate-y-0 hover:-translate-y-[590px]">
                         <div className={`
-                    ${"w-full h-[490px] relative "} 
+                    ${"w-full h-[590px] relative "} 
                     `}>
-                            <div className="flex-1 h-4/6 content-center text-center justify-center items-center text-white">
-                                IMAGE
+                            <div className="flex image-wrapper-anorz h-4/6 w-full text-white overflow-hidden">
+                                <Image
+                                    src="/images/anorz/main.png"
+                                    className={`object-contain`}
+                                    alt="Picture of the author"
+                                    width={500}
+                                    height={500}
+                                />
                             </div>
                             <div className="flex-1 h-2/6">
                                 <p className="ml-10 text-4xl text-white subpixel-antialiased">
@@ -236,7 +251,7 @@ const Member = () => {
                             </div>
                         </div>
                         <div className={`
-                    ${"w-full h-[500px] relative text-white content-center bg-gradient-to-r from-teal-700 to-red-700"}
+                    ${"w-full h-[600px] relative text-white content-center bg-gradient-to-r from-teal-700 to-red-700"}
                     `}>
                             <p className="ml-10 text-4xl text-white subpixel-antialiased cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5 hover:text-emerald-900">
                                 <a href="/members/Anorz_Mystrosia">

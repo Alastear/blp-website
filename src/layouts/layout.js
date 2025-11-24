@@ -60,7 +60,7 @@ const RootLayout = ({ children }) => {
                                     </div>
                                 </Link>
                             </div>
-                            <p className={`md:hidden ${scrollY > 0 || router.pathname !== "/home" ? "text-white font-bold" : "text-white font-bold"}`}>
+                            <p className={`md:hidden font-inknut ${scrollY > 0 || router.pathname !== "/home" ? "text-white font-bold" : "text-white font-bold"}`}>
                                 BLP
                             </p>
                             <Link href="/home/#home" onClick={(e) => {
@@ -71,13 +71,13 @@ const RootLayout = ({ children }) => {
                                     router.push("/home");
                                 }
                             }}>
-                                <p className={`md:flex hidden ${scrollY > 0 || router.pathname !== "/home" ? "text-white font-bold" : "text-white font-bold"}`}>
+                                <p className={`md:flex hidden font-inknut ${scrollY > 0 || router.pathname !== "/home" ? "text-white font-bold" : "text-white font-bold"}`}>
                                     Blinding Lights Project
                                 </p>
                             </Link>
                         </div>
                         <div className="flex justify-center md:visible invisible lg:mr-10 mr-4 items-center">
-                            <div className={`${scrollY > 0 || router.pathname !== "/home" ? "text-white" : "text-white"} flex-none absolute md:relative lg:mx-4 md:mx-2 transition duration-300 hover:-translate-y-0.5 cursor-pointer`}>
+                            <div className={`${scrollY > 0 || router.pathname !== "/home" ? "text-white" : "text-white"} font-inknut flex-none absolute md:relative lg:mx-4 md:mx-2 transition duration-300 hover:-translate-y-0.5 cursor-pointer`}>
                                 <Link href="/home/#home" onClick={(e) => {
                                     e.preventDefault();
                                     if (router.pathname === "/home") {
@@ -90,7 +90,7 @@ const RootLayout = ({ children }) => {
                                     Home
                                 </Link>
                             </div>
-                            <div className={`${scrollY > 0 || router.pathname !== "/home" ? "text-white" : "text-white"} flex-none absolute md:relative lg:mx-4 md:mx-2 transition duration-300 hover:-translate-y-0.5 cursor-pointer`}>
+                            <div className={`${scrollY > 0 || router.pathname !== "/home" ? "text-white" : "text-white"} font-inknut flex-none absolute md:relative lg:mx-4 md:mx-2 transition duration-300 hover:-translate-y-0.5 cursor-pointer`}>
                                 <Link href="/home/#about" onClick={(e) => {
                                     e.preventDefault();
                                     if (router.pathname === "/home") {
@@ -103,7 +103,7 @@ const RootLayout = ({ children }) => {
                                     About BLP
                                 </Link>
                             </div>
-                            <div className={`${scrollY > 0 || router.pathname !== "/home" ? "text-white" : "text-white"} flex-none  absolute md:relative lg:mx-4 md:mx-2 transition duration-300 hover:-translate-y-0.5 cursor-pointer`}>
+                            <div className={`${scrollY > 0 || router.pathname !== "/home" ? "text-white" : "text-white"} font-inknut flex-none absolute md:relative lg:mx-4 md:mx-2 transition duration-300 hover:-translate-y-0.5 cursor-pointer`}>
                                 <Link href="/home/#member" onClick={(e) => {
                                     e.preventDefault();
                                     if (router.pathname === "/home") {
@@ -115,7 +115,7 @@ const RootLayout = ({ children }) => {
                                     Members
                                 </Link>
                             </div>
-                            <div className={`${scrollY > 0 || router.pathname !== "/home" ? "text-white" : "text-white"} flex-none  absolute md:relative lg:mx-4 md:mx-2 transition duration-300 hover:-translate-y-0.5 cursor-pointer`}>
+                            <div className={`${scrollY > 0 || router.pathname !== "/home" ? "text-white" : "text-white"} font-inknut flex-none absolute md:relative lg:mx-4 md:mx-2 transition duration-300 hover:-translate-y-0.5 cursor-pointer`}>
                                 <Link href="/home/#join" onClick={(e) => {
                                     e.preventDefault();
                                     if (router.pathname === "/home") {
@@ -127,7 +127,7 @@ const RootLayout = ({ children }) => {
                                     Join
                                 </Link>
                             </div>
-                            <div className={`${scrollY > 0 || router.pathname !== "/home" ? "text-white" : "text-white"} flex-none  absolute md:relative lg:mx-4 md:mx-2 transition duration-300 hover:-translate-y-0.5 cursor-pointer`}>
+                            <div className={`${scrollY > 0 || router.pathname !== "/home" ? "text-white" : "text-white"} font-inknut flex-none absolute md:relative lg:mx-4 md:mx-2 transition duration-300 hover:-translate-y-0.5 cursor-pointer`}>
                                 <Link href="/home/#product" onClick={(e) => {
                                     e.preventDefault();
                                     if (router.pathname === "/home") {
@@ -139,7 +139,7 @@ const RootLayout = ({ children }) => {
                                     Products
                                 </Link>
                             </div>
-                            <div className={`${scrollY > 0 || router.pathname !== "/home" ? "text-white" : "text-white"} flex-none  absolute md:relative lg:mx-4 md:mx-2 transition duration-300 hover:-translate-y-0.5 cursor-pointer`}>
+                            <div className={`${scrollY > 0 || router.pathname !== "/home" ? "text-white" : "text-white"} font-inknut flex-none absolute md:relative lg:mx-4 md:mx-2 transition duration-300 hover:-translate-y-0.5 cursor-pointer`}>
                                 <div className={`w-auto h-10 px-4 rounded-full border ${scrollY > 0 || router.pathname !== "/" ? "border-white" : "border-black"} content-center`}>
                                     <Link href="/home/#contact" onClick={(e) => {
                                         e.preventDefault();
@@ -184,7 +184,7 @@ const RootLayout = ({ children }) => {
                 ${"h-screen md:invisible visible absolute w-full content-center text-center justify-center items-center bg-black/75 transition duration-300 ease-in-out"}
                 ${showMenu ? "translate-y-0" : "-translate-y-full"}
                 `}>
-                    <div className="text-white text-2xl my-5">
+                    <div className="text-white text-2xl my-5 font-inknut">
                         <Link href="/home/#about" onClick={(e) => {
                             e.preventDefault();
                             if (router.pathname === "/home") {
@@ -197,7 +197,7 @@ const RootLayout = ({ children }) => {
                             About
                         </Link>
                     </div>
-                    <div className="text-white text-2xl my-5">
+                    <div className="text-white text-2xl my-5 font-inknut">
                         <Link href="/home/#member" onClick={(e) => {
                             e.preventDefault();
                             if (router.pathname === "/home") {
@@ -210,7 +210,7 @@ const RootLayout = ({ children }) => {
                             Members
                         </Link>
                     </div>
-                    <div className="text-white text-2xl my-5">
+                    <div className="text-white text-2xl my-5 font-inknut">
                         <Link href="/home/#join" onClick={(e) => {
                             e.preventDefault();
                             if (router.pathname === "/home") {
@@ -223,7 +223,7 @@ const RootLayout = ({ children }) => {
                             Join
                         </Link>
                     </div>
-                    <div className="text-white text-2xl my-5">
+                    <div className="text-white text-2xl my-5 font-inknut">
                         <Link href="/home/#product" onClick={(e) => {
                             e.preventDefault();
                             if (router.pathname === "/home") {
@@ -236,7 +236,7 @@ const RootLayout = ({ children }) => {
                             Products
                         </Link>
                     </div>
-                    <div className='flex justify-center text-white text-2xl my-5 '>
+                    <div className='flex justify-center text-white text-2xl my-5 font-inknut'>
                         <div className="h-14 px-4 w-64 rounded-full border border-white content-center">
                             <Link href="/home/#contact" onClick={(e) => {
                                 e.preventDefault();

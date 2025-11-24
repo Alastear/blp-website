@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fontsource/ibm-plex-sans-thai": "^5.1.1",
+    "@fontsource/inknut-antiqua": "^5.1.1",
     "@fontsource/kanit": "^5.1.0",
     "next": "14.1.0",
     "react": "^18",
