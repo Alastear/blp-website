@@ -78,12 +78,12 @@ const Member = () => {
                             </p>
                             <div className="ml-10 text-white mt-10 mr-10">
                                 <div className="flex items-center mt-4 transition-all duration-300 ease hover:-translate-y-0.5" >
-                                    <a className='flex items-center' href="https://www.youtube.com/@Loretzslowly" target="_blank">
+                                    <a className='flex items-center' href="#" target="_blank">
                                         <FaYoutube className="mr-2" />Youtube
                                     </a>
                                 </div>
                                 <div className="flex items-center mt-4 transition-all duration-300 ease hover:-translate-y-0.5" >
-                                    <a className='flex items-center' href="https://x.com/Loretzslowly" target="_blank">
+                                    <a className='flex items-center' href="https://x.com/MunWanGanGan" target="_blank">
                                         <FaXTwitter className="mr-2" />Twitter
                                     </a>
                                 </div>
