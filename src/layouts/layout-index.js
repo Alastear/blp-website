@@ -29,7 +29,7 @@ const RootLayoutIndex = ({ children }) => {
                 <meta property="og:image" content="https://img2.pic.in.th/pic/logo-blp.png" />
                 <meta property="og:image:type" content="image/jpeg" />
                 <meta property="og:image:width" content="500" />
-                <meta property="og:image:height" content="300" />
+                <meta property="og:image:height" content="500" />
                 <link rel="icon" href="/images/logo-blp-circle.png" />
             </Head>
             <div>
