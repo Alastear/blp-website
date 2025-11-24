@@ -87,11 +87,11 @@ const Member = () => {
                                         <FaXTwitter className="mr-2" />Twitter
                                     </a>
                                 </div>
-                                <div className="flex items-center mt-4 transition-all duration-300 ease hover:-translate-y-0.5">
+                                {/* <div className="flex items-center mt-4 transition-all duration-300 ease hover:-translate-y-0.5">
                                     <a className='flex items-center' href="https://www.twitch.tv/loretzslowly" target="_blank">
                                         <FaTwitch className="mr-2" />Twitch
                                     </a>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

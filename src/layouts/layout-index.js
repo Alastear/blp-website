@@ -18,7 +18,9 @@ const RootLayoutIndex = ({ children }) => {
         <>
             <Head>
                 <title>BLP | Blinding Lights Project</title>
-                <meta name="description" content="Blinding Lights Project" />
+                <meta name="description" content="BLP - Blinding Lights Project: กลุ่ม VTuber สุดน่ารัก พร้อมกิจกรรม, การแสดง และสมาชิกสุดคูล" />
+                <meta name="keywords" content="VTuber, Blinding Lights Project, BLP, Virtual YouTuber, Anime, Streaming" />
+                <meta name="robots" content="index, follow" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta property="og:title" content="Blinding Lights Project" />
                 <meta property="og:type" content="website" />
