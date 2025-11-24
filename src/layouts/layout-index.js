@@ -24,9 +24,9 @@ const RootLayoutIndex = ({ children }) => {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta property="og:title" content="Blinding Lights Project" />
                 <meta property="og:type" content="website" />
-                <meta property="og:image:url" content="/images/BLP NY_2025_Wallpaper.png" />
+                <meta property="og:image:url" content="https://img2.pic.in.th/pic/logo-blp.png" />
                 <meta property="og:description" content="Blinding Lights Project" />
-                <meta property="og:image" content="/images/BLP NY_2025_Wallpaper.png" />
+                <meta property="og:image" content="https://img2.pic.in.th/pic/logo-blp.png" />
                 <meta property="og:image:type" content="image/jpeg" />
                 <meta property="og:image:width" content="500" />
                 <meta property="og:image:height" content="300" />
