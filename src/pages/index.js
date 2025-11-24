@@ -48,7 +48,7 @@ export default function Home() {
             <div className="flex font-ibm md:text-[28px] sm:text-[24px] text-[20px] text-white text-center mx-2">
               บังเกิดเป็นการเดินทางสุดปั่นป่วน
             </div>
-            <div className="flex items-center content-center lg:w-48 sm:w-40 w-32 lg:mt-8 mt-4">
+            <div className="flex items-center content-center lg:w-48 sm:w-40 w-32 lg:mt-8 mt-4 justify-center mx-auto">
               <Image
                 src='/images/button-start.png'
                 alt='blp-main-image'
