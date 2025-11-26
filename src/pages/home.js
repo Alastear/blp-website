@@ -50,8 +50,8 @@ export default function Home() {
                         <About />
                         <Lore />
                         <Member />
-                        <Member_Munwan />
-                        <Member_1 />
+                        {/* <Member_Munwan />
+                        <Member_1 /> */}
                         <Join />
                         <Product />
                         <Tweets twitterId="1440730000000000000" />
