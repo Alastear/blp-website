@@ -63,8 +63,8 @@ const Join = () => {
     const joinVisible = useIsVisible(joinRef);
 
     return (
-        <div id="join" className="h-auto mb-20 pt-10 w-full bg-gray-900 ">
-            <div className="mt-16 lg:px-20 md:px-10 sm:px-4 px-2 flex justify-center">
+        <div id="join" className="h-auto mb-20 pt-10 w-full ">
+            <div className="my-16 lg:px-20 md:px-10 sm:px-4 px-2 flex justify-center">
                 <div
                     ref={joinRef}
                     className={`

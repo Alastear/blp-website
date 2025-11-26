@@ -8,7 +8,7 @@ const FirstContent = () => {
     return (
         <div id="home" className='w-full flex justify-center'>
             <div className='flex md:mt-20 mt-24 justify-center w-auto h-auto mx-4'>
-                <div className='xl:w-[1200px] lg:w-[1000px] w-full content-center text-center rounded-about text-white relative'>
+                <div className='xl:w-[1200px] lg:w-[1000px] w-full content-center text-center rounded-about text-white justify-items-center relative'>
                     {loading && (
                         <div className="absolute inset-0 flex justify-center items-center bg-gray-300 animate-pulse rounded-about">
                             <div className="w-full h-full bg-gray-400 rounded-about"></div>

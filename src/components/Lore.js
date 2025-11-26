@@ -30,7 +30,7 @@ const Lore = () => {
                     <div className='absolute top-0 flex md:flex-row flex-col w-full h-full items-center justify-center content-center rounded-full md:px-16 sm:px-8 px-4'>
                         <div className='flex-1 md:pt-0 sm:pt-8 pt-16'>
                             <div className='flex flex-col'>
-                                <div className="flex lg:text-[50px] md:text-[44px] sm:text-[32px] text-[24px] text-white font-inknut md:justify-start justify-center mx-2">
+                                <div className="flex lg:text-[50px] md:text-[44px] sm:text-[32px] text-[24px] text-white font-inknut md:text-start text-center md:justify-start justify-center mx-2">
                                     BLINDING LIGHTS PROJECT
                                 </div>
                                 <div className="flex font-ibm lg:text-[32px] md:text-[26px] sm:text-[22px] text-[18px]  text-white md:justify-start justify-center mx-2">
