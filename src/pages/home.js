@@ -15,6 +15,8 @@ import Link from "next/link";
 import { useIsVisible } from "@/components/useIsVisible";
 import RootLayout from "@/layouts/layout";
 import Lore from "@/components/Lore";
+import ImagePopup from "@/components/ImagePopup";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -43,6 +45,7 @@ export default function Home() {
                     </div>
                 ) :
                     (<RootLayout>
+                        <ImagePopup />
                         <FirstContent />
                         <About />
                         <Lore />

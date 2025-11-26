@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import HeaderComponent from "@/components/Header";
 import { useRouter } from "next/router";
 import Head from "next/head";
 import Link from "next/link";
 
 const RootLayout = ({ children }) => {
+    const scrollContainer = useRef(null);
     const router = useRouter();
     const [scrollY, setScrollY] = useState(0);
     const [showMenu, setShowMenu] = useState(false);
@@ -32,7 +33,7 @@ const RootLayout = ({ children }) => {
                 <meta property="og:image:height" content="500" />
                 <link rel="icon" href="/images/logo-blp-circle.png" />
             </Head>
-            <div className={`flex xl:flex-1 flex-col h-screen relative justify-between overflow-hidden cursor-default `}>
+            <div className={`flex xl:flex-1 flex-col h-screen relative justify-between cursor-default `}>
                 <div className={`
                 ${"w-screen flex h-16 z-40 absolute"} 
                 ${!showMenu && router.pathname === "/home" ? "bg-gradient-to-r from-[#212329] to-[#C18843] via-[#252B39]" : "bg-transparent"}
@@ -174,10 +175,12 @@ const RootLayout = ({ children }) => {
                         </div>
                     </div>
                 </div>
-                <div className={`
-                ${"overflow-x-hidden transition duration-300 bg-[#1B151F]"}
-                ${showMenu ? "md:blur-none blur-sm" : "blur-none"}
-                `}
+                <div
+                    ref={scrollContainer}
+                    className={`
+    transition duration-300 bg-[#1B151F]
+    ${showMenu ? "md:blur-none blur-sm" : "blur-none"}
+  `}
                     onScroll={(e) => onscroll(e)}
                 >
                     {children}
