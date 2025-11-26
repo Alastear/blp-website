@@ -28,15 +28,12 @@ const Member = () => {
             ${"mt-10 flex justify-center transition transition-opacity ease-in duration-700 delay-300"} 
             ${memberVisible ? "opacity-100" : "opacity-0"}
             `}>
-                <div className="md:mt-14 mt-10 py-5 md:px-16 sm:px-8 px-2 md:mx-0 mx-6 text-center flex-col lg:h-[150px] md:h-[140px] sm:h-[125px] h-[100px] w-full ">
+                <div className="md:mt-14 mt-10 py-5 md:px-16 sm:px-8 px-2 md:mx-0 mx-6 text-center flex-col w-full ">
                     <p className="text-left lg:text-[36px] md:text-[32px] text-[28px] font-bold subpixel-antialiased text-white font-inknut">
                         <u>
                             MEMBERS
                         </u>
                     </p>
-                    {/* <p className="text-slate-400 lg:px-32 md:px-24 sm:px-14 px-0 antialiased">
-                        Blinding Lights Project
-                    </p> */}
                 </div>
             </div>
             <div ref={firstRef} className={`

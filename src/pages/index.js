@@ -20,9 +20,11 @@ export default function Home() {
   return (
     <RootLayoutIndex>
       {loading ? (
-        // Skeleton / Loader
-        <div className="flex bg-gradient-to-r from-[#212329] via-[#252B39] to-[#C18843] w-screen h-screen items-center justify-center">
-          <div className="flex lg:w-56 lg:h-56 w-32 h-32 border-[10px] border-slate-100 border-t-transparent rounded-full animate-spin-slow"></div>
+        <div className="flex items-center justify-center w-screen h-screen bg-black">
+          <div className="w-24 h-24 rounded-full animate-spin
+        bg-gradient-to-tr from-pink-500 via-purple-500 to-indigo-500 p-2">
+            <div className="w-full h-full bg-black rounded-full"></div>
+          </div>
         </div>
       ) : (
         <div className="relative w-screen h-screen">

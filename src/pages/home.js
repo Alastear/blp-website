@@ -32,6 +32,18 @@ export default function Home() {
         return () => clearTimeout(timer); // Cleanup the timer
     }, []);
 
+    useEffect(() => {
+        if (!loading) {
+            const hash = window.location.hash; // เช่น "#product"
+            if (hash) {
+                const el = document.querySelector(hash);
+                if (el) {
+                    el.scrollIntoView({ behavior: "smooth" });
+                }
+            }
+        }
+    }, [loading]);
+
     const contactRef = useRef();
     const isVisible = useIsVisible(contactRef);
 
@@ -39,8 +51,9 @@ export default function Home() {
         <>
             {
                 loading ? (
-                    <div ref={contactRef} className="flex bg-gradient-to-r from-[#212329] to-[#C18843] via-[#252B39] w-screen h-screen items-center justify-center content-center align-center" >
-                        <div class="flex lg:w-56 lg:h-56 w-32 h-32 border-[10px] border-slate-100 border-t-transparent rounded-full animate-spin-slow">
+                    <div ref={contactRef} className="flex items-center justify-center w-screen h-screen bg-black">
+                        <div className="w-24 h-24 rounded-full animate-spin bg-gradient-to-tr from-pink-500 via-purple-500 to-indigo-500 p-2">
+                            <div className="w-full h-full bg-black rounded-full"></div>
                         </div>
                     </div>
                 ) :
