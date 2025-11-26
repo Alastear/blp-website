@@ -68,7 +68,7 @@ export default function Home() {
                         <Join />
                         <Product />
                         <Tweets twitterId="1440730000000000000" />
-                        <div id="contact" className="md:h-[420px] w-full bg-white py-10 lg:px-20 md:px-10 px-4">
+                        <div className="md:h-[420px] w-full bg-white py-10 lg:px-20 md:px-10 px-4">
                             <div ref={contactRef} className={`
         ${"flex flex-col justify-between h-full w-full bg-white border-2 border-blue-900 rounded-about transition-all duration-700 ease-in-out"}
         ${isVisible ? "opacoty-100 scale-100" : "opacity-100 scale-100"}
@@ -85,19 +85,20 @@ export default function Home() {
                                                 Blinding Lights Project
                                             </p>
                                         </div>
-                                        <div className="flex-col  mt-[30px] text-xl md:flex-col ml-10 ">
+                                        <div id="contact" className="flex-col  mt-[30px] text-xl md:flex-col ml-10 ">
                                             <p className="xl:ml-6 md:ml-4 ml-2">
                                                 Contact Us
                                             </p>
                                             <div className="flex xl:ml-8 md:ml-4 ml-2 text-[14px] mt-2 text-slate-800">
                                                 <div className="flex-row">
                                                     <div className="flex">
-                                                        <p className="text-black mx-2 text-[16px] w-10">Email </p>
-                                                        blindinglights.project@gmail.com
-                                                    </div>
-                                                    <div className="flex">
-                                                        <p className="text-black mx-2 text-[16px] w-10">Tel </p>
-                                                        088-888-8888
+                                                        <p className="text-black mx-2 text-[18px] w-10">Email </p>
+                                                        <a
+                                                            href="mailto:blindinglights.project@gmail.com"
+                                                            className="text-black mx-2 text-[16px] underline hover:text-blue-600"
+                                                        >
+                                                            blindinglights.project@gmail.com
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -167,7 +168,7 @@ export default function Home() {
                                 </div>
                                 <div className="mt-16 bottom-0 relative flex justify-between">
                                     <div className="ml-10 mb-4 text-sm">© BLP 2024. Blinding Lights Project.</div>
-                                    <div className="mr-10 mb-4 text-sm">{'Design by '}
+                                    <div className="mr-10 mb-4 text-sm">{'By '}
                                         Delta Alizella
                                     </div>
                                 </div>
