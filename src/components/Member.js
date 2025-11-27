@@ -76,7 +76,7 @@ const Member = () => {
                                 <p className="ml-10 text-4xl text-white subpixel-antialiased">
                                     AquaMarinia
                                 </p>
-                                <p className="text-slate-400 ml-10 mt-4 mr-10">
+                                <p className="text-slate-100 ml-10 mt-4 mr-10">
                                     Spirit of the Ocean, Protector of the Sea
                                 </p>
                             </div>
@@ -132,7 +132,7 @@ const Member = () => {
                                 <p className="ml-10 text-4xl text-white subpixel-antialiased">
                                     Milyni Tivona
                                 </p>
-                                <p className="text-slate-400 ml-10 mt-4 mr-10">
+                                <p className="text-slate-100 ml-10 mt-4 mr-10">
                                     Mail girl from a magical world!!
                                 </p>
                             </div>
@@ -188,7 +188,7 @@ const Member = () => {
                                 <p className="ml-10 text-4xl text-white subpixel-antialiased">
                                     Lafka Balea
                                 </p>
-                                <p className="text-slate-400 ml-10 mt-4 mr-10">
+                                <p className="text-slate-100 ml-10 mt-4 mr-10">
                                     A Pirate Captain who believe in freedom and kindness
                                 </p>
                             </div>
@@ -242,7 +242,7 @@ const Member = () => {
                                 <p className="ml-10 text-4xl text-white subpixel-antialiased">
                                     Anorz Mystrosia
                                 </p>
-                                <p className="text-slate-400 ml-10 mt-4 mr-10">
+                                <p className="text-slate-100 ml-10 mt-4 mr-10">
                                     Green Wizard, The magic shop owner at the misty swamp
                                 </p>
                             </div>

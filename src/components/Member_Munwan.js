@@ -60,7 +60,7 @@ const Member = () => {
                                 <p className="ml-10 text-4xl text-white subpixel-antialiased">
                                     Gan
                                 </p>
-                                <p className="text-slate-400 ml-10 mt-4 mr-10">
+                                <p className="text-slate-100 ml-10 mt-4 mr-10">
                                     A Sweet Potato
                                 </p>
                             </div>
