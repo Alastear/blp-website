@@ -90,6 +90,27 @@
   /* Prevents blocking mouse events */
 }
 
+.image-wrapper-gan {
+  position: relative;
+  display: inline-block;
+}
+
+.image-wrapper-gan img {
+  display: block;
+}
+
+.image-wrapper-gan::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #cc80df 100%);
+  pointer-events: none;
+  /* Prevents blocking mouse events */
+}
+
 .image-wrapper-loretta {
   position: relative;
   display: inline-block;

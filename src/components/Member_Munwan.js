@@ -38,40 +38,37 @@ const Member = () => {
             </div>
             <div className="flex lg:flex-row flex-col justify-center items-center">
                 <div ref={step1Ref} className={`
-                ${"h-[600px] w-[350px] bg-gray-900 mx-4 rounded-about overflow-hidden lg:my-0 my-4 transition ease-in duration-300"}
-                ${step1Visible ? "scale-100" : "scale-0"}
-                `}>
+                            ${"h-[600px] w-[350px] bg-[#cc80df] mx-4 rounded-about overflow-hidden lg:my-0 my-4 transition ease-in duration-300"}
+                            ${step1Visible ? "scale-100" : "scale-0"}
+                            `} >
                     <div className="transition duration-300 ease-in translate-y-0 hover:-translate-y-[590px]">
                         <div className={`
-                    ${"w-full h-[590px] relative "}
-                    `}>
-                            {/* <div className="flex image-wrapper-loretta h-4/6 w-full text-white overflow-hidden p-4">
+                                ${"w-full h-[590px] relative "} 
+                                `}>
+                            <div className="flex image-wrapper-gan h-4/6 w-full text-white overflow-hidden ">
                                 <div className='flex justify-center'>
                                     <Image
-                                        src="/images/loretta/loretta_01.png"
+                                        src="/images/gan/munwan-demo.jpg"
                                         className={`object-contain`}
                                         alt="Picture of the author"
                                         width={500}
                                         height={500}
                                     />
                                 </div>
-                            </div> */}
-                            <div className="flex-1 h-4/6 content-center text-center justify-center items-center text-white">
-                                IMAGE
                             </div>
                             <div className="flex-1 h-2/6">
                                 <p className="ml-10 text-4xl text-white subpixel-antialiased">
                                     Gan
                                 </p>
                                 <p className="text-slate-400 ml-10 mt-4 mr-10">
-                                    The Sweet Potato
+                                    A Sweet Potato
                                 </p>
                             </div>
                         </div>
                         <div className={`
-                    ${"w-full h-[600px] relative text-white content-center bg-gradient-to-r from-purple-600 to-purple-200"}
-                    `}>
-                            <p className="ml-10 text-4xl text-white subpixel-antialiased cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5 hover:text-rose-900">
+                                ${"w-full h-[600px] relative text-white content-center bg-gradient-to-r from-[#9358b2] to-[#fff2b8]"}
+                                `}>
+                            <p className="ml-10 text-4xl text-white subpixel-antialiased cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5 hover:text-purple-900">
                                 <a href="/members/Gan">
                                     Gan
                                 </a>
@@ -88,10 +85,10 @@ const Member = () => {
                                     </a>
                                 </div>
                                 {/* <div className="flex items-center mt-4 transition-all duration-300 ease hover:-translate-y-0.5">
-                                    <a className='flex items-center' href="https://www.twitch.tv/loretzslowly" target="_blank">
-                                        <FaTwitch className="mr-2" />Twitch
-                                    </a>
-                                </div> */}
+                                                <a className='flex items-center' href="https://www.twitch.tv/milynitivona" target="_blank">
+                                                    <FaTwitch className="mr-2" />Twitch
+                                                </a>
+                                            </div> */}
                             </div>
                         </div>
                     </div>

@@ -25,7 +25,7 @@ const Product = () => {
 
 
     return (
-        <div className='pt-20 justify-center text-center bg-black ' id="product" >
+        <div className='py-20 justify-center text-center bg-black ' id="product" >
             <div className='md:h-[75px] h-[50px] justify-center text-center'>
                 <p className='text-[36px] font-bold text-white'>
                     PRODUCTS
@@ -50,7 +50,7 @@ const Product = () => {
                                                 }
                                             }}
                                             className={`
-                                        ${'transition ease-in duration-300 object-contain md:min-h-[600px] md:max-h-[600px] min-h-[275px] max-h-[275px]'}
+                                        ${'transition ease-in duration-300 object-contain md:min-h-[500px] md:max-h-[600px] min-h-[275px] max-h-[275px]'}
                                         ${index === imageIndex ? 'opacity-100' : 'opacity-0 hidden'}
                                         ${item.link !== '' ? 'cursor-pointer' : 'cursor-default'}
                                         `}
@@ -58,7 +58,7 @@ const Product = () => {
                                             width={0}
                                             height={0}
                                             loading="lazy"
-                                            sizes="100vw"
+                                            sizes="80vw"
                                             style={{ width: 'auto', height: 'auto' }}
                                         />
                                     </div>

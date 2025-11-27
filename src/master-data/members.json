@@ -47,9 +47,9 @@
         "twitch": "#",
         "colors": "bg-gradient-to-r from-indigo-700 to-pink-500"
     },
-    "Benjy":{
+    "Chitta":{
         "id": 7,
-        "name": "Benjy",
+        "name": "Chitta",
         "youtube": "https://www.youtube.com/@Ratty_Benjy",
         "twitter": "https://x.com/ratty_benjy",
         "twitch": "#",
@@ -61,6 +61,6 @@
         "youtube": "https://www.youtube.com/@NongMunWan",
         "twitter": "https://x.com/MunWanGanGan",
         "twitch": "#",
-        "colors": "bg-gradient-to-r from-purple-600 to-purple-200"
+        "colors": "bg-gradient-to-r from-[#9358b2] to-[#fff2b8]"
     }
 }

@@ -161,7 +161,7 @@ const Member = () => {
                             </div>
                             <div className="flex-1 h-2/6">
                                 <p className="ml-10 text-4xl text-white subpixel-antialiased">
-                                    Benjy
+                                    Chitta
                                 </p>
                                 <p className="text-slate-400 ml-10 mt-4 mr-10">
                                     The Rat of Mystery Creature
@@ -172,8 +172,8 @@ const Member = () => {
                     ${"w-full h-[600px] relative text-white content-center bg-gradient-to-r from-red-700 to-black"}
                     `}>
                             <p className="ml-10 text-4xl text-white subpixel-antialiased cursor-pointer transition-all duration-300 ease hover:-translate-y-0.5 hover:text-red-400">
-                                <a href="/members/Benjy">
-                                    Benjy
+                                <a href="/members/Chitta">
+                                    Chitta
                                 </a>
                             </p>
                             <div className="ml-10 text-white mt-10 mr-10">
