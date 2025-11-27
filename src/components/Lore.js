@@ -49,7 +49,7 @@ const Lore = () => {
                                 width={300}
                                 height={300}
                                 className="object-cover cursor-pointer"
-                                onClick={() => { window.location.href = '/lore' }}
+                                // onClick={() => { window.location.href = '/lore' }}
                             />
                         </div>
                     </div>
